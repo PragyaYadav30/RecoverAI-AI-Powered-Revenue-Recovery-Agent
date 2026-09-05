@@ -1,0 +1,17 @@
+id,customer,type,amount,status,reason,days_overdue,attempts,risk_score,email,last_action,recovered
+R001,Acme Retail,Subscription,4999,failed,Expired card,0,0,62,billing@acme.test,,0
+R002,GreenMart,Subscription,7999,failed,Insufficient funds,0,1,74,finance@greenmart.test,,0
+R003,Northstar Ltd,Invoice,28500,overdue,Invoice overdue,18,1,81,ap@northstar.test,,0
+R004,PixelWorks,Checkout,3499,abandoned,Checkout abandonment,0,0,55,buyer@pixelworks.test,,0
+R005,BluePeak,Subscription,12999,failed,Insufficient funds,0,2,86,finance@bluepeak.test,,0
+R006,UrbanCart,Checkout,2199,abandoned,Checkout abandonment,0,0,42,buyer@urbancart.test,,0
+R007,Vertex Systems,Invoice,52000,overdue,Invoice overdue,37,3,91,ap@vertex.test,,0
+R008,Sunrise Foods,Subscription,6499,failed,Expired card,0,0,68,billing@sunrise.test,,0
+R009,Orbit Labs,Subscription,15999,paid,None,0,0,5,billing@orbit.test,,1
+R010,Delta Services,Invoice,18500,overdue,Invoice overdue,12,1,64,ap@delta.test,,0
+R011,Nova Traders,Subscription,8999,failed,Insufficient funds,0,0,49,billing@nova.test,,0
+R012,Zenith Corp,Invoice,31500,overdue,Invoice overdue,44,2,88,ap@zenith.test,,0
+R013,FreshBasket,Checkout,2799,abandoned,Checkout abandonment,0,0,35,buyer@fresh.test,,0
+R014,CloudNine,Subscription,11999,failed,Expired card,0,1,71,billing@cloud.test,,0
+R015,MetroBuild,Invoice,41000,overdue,Invoice overdue,22,1,76,ap@metro.test,,0
+R016,QuickPay,Subscription,5999,failed,Insufficient funds,0,0,38,billing@quick.test,,0

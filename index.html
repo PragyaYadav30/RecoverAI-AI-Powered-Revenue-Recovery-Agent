@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RecoverAI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><div><h1>RecoverAI</h1><p>AI + Data Analytics Revenue Recovery Agent</p></div><span>DEMO • BOUNDED AI WORKFLOW</span></header>
+<main>
+<section class="hero"><h2>Detect. Diagnose. Decide. Recover.</h2><p>Turn failed payments, abandoned checkouts and overdue invoices into measurable recovered revenue.</p></section>
+<section class="cards">
+<div><small>Revenue at Risk</small><b id="risk">₹0</b></div><div><small>Revenue Recovered</small><b id="rec">₹0</b></div>
+<div><small>Recovery Rate</small><b id="rate">0%</b></div><div><small>High-Risk Cases</small><b id="high">0</b></div>
+</section>
+<section class="grid"><div class="panel"><h3>Analytics Insights</h3><div id="analytics"></div></div>
+<div class="panel"><h3>AI Agent Workflow</h3><div class="flow">Data → Analytics → ML Prediction → AI Diagnosis → Guardrails → Action → ₹ Recovered</div></div></section>
+<section class="panel"><div class="top"><div><h3>Revenue Recovery Queue</h3><p>AI recommendation for every case</p></div><input id="search" placeholder="Search customer/reason"></div>
+<div class="table"><table><thead><tr><th>Customer</th><th>Amount</th><th>Reason</th><th>ML Recovery Probability</th><th>AI Diagnosis</th><th>Action</th><th></th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<section class="panel"><h3>Safety Guardrails</h3><div class="rules"><i>Max 3 automated attempts</i><i>Stop after successful payment</i><i>Human escalation for prolonged overdue/repeated failures</i><i>Every action stored in audit field</i></div></section>
+</main><script src="/static/app.js"></script></body></html>
